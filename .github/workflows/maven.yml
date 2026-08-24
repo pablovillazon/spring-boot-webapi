@@ -39,7 +39,6 @@ jobs:
       #run: ./mvnw --batch-mode compile
 
     - name: Run tests with Maven
-      #run: ./mvnw --batch-mode test
       run: mvn -B test --file pom.xml
 
     - name: Run Code Coverage with Maven
