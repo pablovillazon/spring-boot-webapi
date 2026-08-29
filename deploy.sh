@@ -2,7 +2,7 @@
 set -euo pipefail
 
 APP_NAME="spring-boot-app"
-APP_DIR="/opt/spring-boot-app"
+APP_DIR="/home/osboxes/opt/spring-boot-app"
 JAR_NAME="app.jar"
 JAVA_OPTS="-Xms512m -Xmx1024m"
 SPRING_PROFILE="prod"
